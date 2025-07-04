@@ -1,153 +1,111 @@
-✅ 1. Basics of Java
-
-    What is Java? Platform Independence, Features
-
-    Installing JDK & Setting up IDE (Eclipse/IntelliJ)
-
-    Java Program Structure
-
-    main() method, Compilation, Execution
-
-Topics:
-
-    Data Types (primitive, non-primitive)
-
-    Variables, Keywords
-
-    Operators (Arithmetic, Relational, Logical, Bitwise)
-
-    Input/Output using Scanner, System.out
-
-✅ 2. Control Flow Statements
-
-    if, else if, nested if
-
-    switch-case
-
-    for, while, do-while loops
-
-    break, continue, return
-
-✅ 3. Object-Oriented Programming (OOPs)
-
-    Class & Object
-
-    Constructor (default, parameterized)
-
-    this keyword
-
-    Inheritance (Single, Multilevel, Hierarchical)
-
-    Polymorphism (compile-time & runtime)
-
-    Abstraction (abstract class vs interface)
-
-    Encapsulation (access modifiers: private, public, protected)
-
-    Method Overloading & Overriding
-
-    super keyword
-
-    final keyword
-
-    static keyword and blocks
-
-✅ 4. String Handling
-
-    String vs StringBuilder vs StringBuffer
-
-    Common methods: .equals(), .compareTo(), .substring(), .indexOf(), .replace(), etc.
-
-    Immutability concept
-
-    String Pool
-
-✅ 5. Arrays & Collections
-Arrays:
-
-    1D, 2D Arrays
-
-    Array Operations (search, sort, insert)
-
-Collections Framework:
-
-    List: ArrayList, LinkedList
-
-    Set: HashSet, LinkedHashSet, TreeSet
-
-    Map: HashMap, TreeMap, LinkedHashMap
-
-    Queue: PriorityQueue
-
-    Iteration: Iterator, ListIterator, Enhanced for loop
-
-✅ 6. Exception Handling
-
-    try, catch, finally
-
-    throw, throws
-
-    Checked vs Unchecked exceptions
-
-    Custom exceptions
-
-✅ 7. Java Input/Output (I/O)
-
-    File, FileReader, FileWriter
-
-    BufferedReader, BufferedWriter
-
-    Serialization & Deserialization
-
-    Byte streams vs Character streams
-
-✅ 8. Multithreading
-
-    Thread class and Runnable interface
-
-    sleep(), join(), yield()
-
-    Thread Life Cycle
-
-    Synchronization
-
-    Inter-thread communication (wait(), notify())
-
-✅ 9. Java 8 Features (Very Important for Interviews)
-
-    Lambda Expressions
-
-    Functional Interfaces
-
-    Streams API
-
-    Method References
-
-    Optional Class
-
-    Default & Static methods in interfaces
-
-✅ 10. Useful Utility Classes
-
-    Math, Arrays, Collections, Date, Calendar, UUID, StringTokenizer, Pattern & Matcher (Regex)
-
-✅ 11. JDBC (Java Database Connectivity)
-
-    Connect to MySQL or any DB
-
-    DriverManager, Connection, Statement, ResultSet
-
-    Prepared Statements
-
-    Basic CRUD Operations
-
-✅ 12. Build Tools & Project Structure
-
-    Maven / Gradle (dependency management)
-
-    Java Package structure
-
-    Working with modules
+🔰 Basics of Java
+- First Java Program Internals
+- JDK, JRE, JVM (Java Virtual Machine)
+- JVM Memory Management
+- JVM Architecture or Internal Details
+- Memory Management (Garbage Collection in Depth)
+
+🏗️ Class, Object, and Types of Classes
+- Naming Convention of Java
+- Life Cycle of an Object
+- Anonymous Objects in Java
+- Serialization and Deserialization
+
+🔢 Data Types, Variables, Constants, and Literals
+- Java Variables and Non-Primitive Data Types
+- Types of Variables (Local, Instance, Static)
+
+🛠️ Methods in Java
+- Methods
+- Static Method and Instance Method
+- Main Method
+
+🚧 Constructors in Java
+- Constructor
+- Constructor Overloading
+- Constructor Chaining in Java
+- Copy Constructor in Java
+
+🔒 Modifiers in Java
+- Types of Access Specifiers
+- Non-Access Modifiers
+
+⚙️ Static Keyword
+- Static Variable
+- Static Method
+- Static Block
+
+🔑 Final Keyword
+- Final Keyword
+- Final Variable
+- Final Method
+- Final Class
+
+🏛️ Inner Class in Java
+- What is Inner Class in Java?
+- Properties of Inner Class
+- Instantiating Inner Class
+- Types of Inner Class in Java
+
+💡 Super Keyword
+- Super Keyword
+- Calling of Superclass Instance Variable
+- Superclass Constructor
+- Superclass Method
+
+🔍 This Keyword
+- This Keyword
+- Difference Between Super and This
+
+💥 OOPs Concepts
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+
+📂 Collections Framework
+- What is the Collection Framework?
+- Map,Set,Queue,List 
+- Comparator vs Comparable and PriorityQueue
+
+⚠️ Exception Handling
+- Exception Handling in Java
+- Error vs Exception
+- Types of Exceptions
+- Try-catch Block
+- Multiple Catch Block
+- Nested Try Block
+- Finally Block
+- Throw vs Throws
+- Finally vs Finalize
+- Java Custom Exceptions
+- Throwable Class
+
+🧵 String, StringBuffer, StringBuilder
+- Immutable String
+- String Comparison
+- StringBuffer and StringBuilder Class
+- String, StringBuilder, StringBuffer Differences
+
+🛠️ Multithreading
+- Thread Creation
+- Thread Class vs Runnable Interface
+- Join Method
+- Synchronized Keyword
+- Thread Lifecycle
+- Inter-Thread Communication
+- Daemon Thread, Thread Priority
+- Callable Interface
+- Difference Between Runnable and Callable
+- Locks and Condition
+- Lock-Free Concurrency
+- Thread Pools
+- Thread Pool Executor
+- Volatile Keyword
+- Interrupting Threads
+
+🔍 Java 8/11/17/21
+ - New features
 
 ----------------------------------------Spring Boot---------------------------------------------------------------------------------------------
 Day 1: Introduction to Spring Boot
