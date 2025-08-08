@@ -1,1 +1,94 @@
 
+Client Name: United Parcel Service -UPS
+Domain: Transport and logistics
+Under UPS there any many sub applications:
+like Order Management Sysytem, Damage Call Tag, Schedule Pickup, OLFS, Etc 
+
+3️⃣ Tech Stack
+
+    Backend: Java 8, Spring Boot, Microservices
+
+    Frontend: Angular / React (if applicable)
+
+    Database: MySQL / Oracle
+
+    Messaging Queue: RabbitMQ / Kafka (if used)
+
+    Cloud & Deployment: AWS, Jenkins CI/CD
+
+    Others: REST API, Hibernate/JPA
+
+Team Size: 11 { 2- Manger, 2- QA, 2-UI, 1-TL, 4-Developer}
+
+4️⃣ Key Features Implemented
+
+    Real-time parcel tracking through REST APIs
+
+    Route optimization using location & traffic data
+
+    Automated shipment status updates to customers
+
+    Role-based authentication for Admin, Driver, and Customer portals
+
+    Daily and weekly delivery performance reports
+
+**"I worked on a Transport & Logistics domain project for United Parcel Service (UPS) focusing on real-time parcel tracking and route optimization. The goal was to improve delivery efficiency and customer tracking accuracy.
+
+On the backend, I used Java 8, Spring Boot, and MySQL, developing REST APIs for parcel tracking, shipment updates, and performance reporting. I optimized SQL queries and added caching, reducing API latency by 25%.
+
+One key challenge was handling a high volume of tracking data without slowing down performance. I solved this by implementing indexing, pagination, and database connection pooling.
+
+As a result, delivery delays reduced by 15% and tracking accuracy improved to 99%, directly boosting operational efficiency."**
+
+During peak times, when a massive volume of tracking data was coming in, I ensured the system handled high demand smoothly by optimizing APIs, queries, and implementing caching. I also worked closely on resolving customer-reported issues in real time, ensuring minimal delivery disruptions.
+
+Role:
+Java Backend Developer (Transport & Logistics Domain – UPS)
+
+Responsibilities:
+
+    Developed and maintained REST APIs using Java 8 and Spring Boot for parcel tracking, shipment updates, and reporting.
+
+    Handled peak-time high data loads by optimizing queries, enabling caching, and implementing pagination for better performance.
+
+    Worked on real-time issue resolution by analyzing customer-reported problems and delivering quick fixes to avoid delivery delays.
+
+    Integrated with MySQL database, wrote complex queries, created indexes, and optimized stored procedures for faster data retrieval.
+
+    Collaborated with the QA and front-end teams to ensure smooth feature delivery and bug resolution.
+
+    Monitored application logs, performed debugging, and fixed production issues under tight deadlines.
+
+    Participated in daily scrum meetings and contributed to sprint planning, task estimation, and code reviews.
+
+Challenges Faced:
+
+    High Traffic During Peak Hours
+
+        Problem: During festive seasons and sales, the system had to handle a sudden spike in tracking requests, causing API slowness.
+
+        Solution: Implemented caching (Redis), pagination, and SQL indexing, which reduced response time by 25% and prevented downtime.
+
+    Real-Time Issue Resolution
+
+        Problem: Customer-reported issues like wrong status updates or delayed tracking had to be fixed quickly without affecting live operations.
+
+        Solution: Set up log monitoring and quick debugging scripts, allowing faster root cause analysis and hotfix deployment.
+
+    Database Performance Bottlenecks
+
+        Problem: Large tables with millions of records were slowing down queries.
+
+        Solution: Optimized queries, added composite indexes, and used read-replica databases to balance load.
+
+    System Integration with External APIs
+
+        Problem: UPS system needed to sync with third-party logistics partners’ APIs, which had inconsistent response formats.
+
+        Solution: Created a data transformation layer to standardize incoming data before processing.
+
+    Ensuring Data Accuracy in Tracking
+
+        Problem: Some shipments were showing outdated locations due to delayed updates.
+
+        Solution: Implemented asynchronous data processing using message queues to process updates in near real-time.
