@@ -239,5 +239,156 @@ Please learn:
 15. Distributed Tracing: Tools like Jaeger and Zipkin.
 
 16. Anti-Patterns: Avoiding distributed monoliths and over-engineering microservices.
+--------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------Kafka----------------------------------------------------------------------
+
+1. Core Kafka Concepts
+
+Before touching code, get the fundamentals clear:
+
+    What is Kafka and why use it (high throughput, fault-tolerant event streaming)
+
+    Core components:
+
+        Producer – sends messages
+
+        Consumer – reads messages
+
+        Broker – Kafka server
+
+        Topic – category of messages
+
+        Partition – split of a topic for parallelism
+
+        Offset – position of a message in a partition
+
+        Consumer group – multiple consumers working together
+
+    Message retention & replication
+
+📚 Resource: "Kafka in a Nutshell" – Confluent blog
+
+2. Kafka Setup
+
+    Install Kafka & Zookeeper locally (or use Docker)
+
+    Start a broker
+
+    Create a topic
+
+    Send & consume messages using CLI
+
+    kafka-topics.sh --create --topic test --bootstrap-server localhost:9092
+    kafka-console-producer.sh --topic test --bootstrap-server localhost:9092
+    kafka-console-consumer.sh --topic test --from-beginning --bootstrap-server localhost:9092
+
+3. Kafka with Java
+
+    Use Kafka Java Client (org.apache.kafka:kafka-clients)
+
+    Write:
+
+        Simple producer
+
+        Simple consumer
+
+    Understand serialization (StringSerializer, JsonSerializer, Avro)
+
+4. Kafka with Spring Boot
+
+    Spring Kafka dependency (spring-kafka)
+
+    Producer & consumer configuration in application.yml
+
+    @KafkaListener annotation
+
+    Sending messages with KafkaTemplate
+
+    Error handling & retries
+
+    JSON serialization/deserialization
+
+📚 Resource: Spring Kafka Docs
+5. Advanced Kafka Features
+
+    Consumer group rebalancing
+
+    Partitions & how to assign them manually
+
+    Message ordering
+
+    Idempotent producers (avoid duplicates)
+
+    Exactly-once semantics
+
+    Compacted topics
+
+    Dead Letter Queues (DLQ)
+
+6. Kafka Streams & Processing
+
+    What is Kafka Streams API
+
+    Stateless vs stateful operations
+
+    Windowing & aggregations
+
+    Spring Cloud Stream for abstraction
+
+7. Schema Management
+
+    Avro, JSON Schema, Protobuf
+
+    Confluent Schema Registry
+
+    Backward/forward compatibility
+
+8. Kafka in Production
+
+    Kafka cluster setup
+
+    Monitoring (Prometheus + Grafana, Confluent Control Center)
+
+    Scaling consumers
+
+    Tuning retention, partitions, replication
+
+    Security:
+
+        SSL/TLS
+
+        SASL authentication
+
+        ACLs
+
+9. Practice Project
+
+Example project idea:
+
+    Order Service → sends “order created” events
+
+    Inventory Service → consumes events, updates stock
+
+    Notification Service → sends email/SMS
+
+    Use Kafka for communication between services
+
+Suggested Learning Order
+
+    Basics → Topics, partitions, producers/consumers
+
+    Kafka CLI → Practice sending & reading messages
+
+    Java API → Simple producer/consumer
+
+    Spring Kafka → Integrate into microservices
+
+    Advanced features → DLQ, exactly-once, idempotence
+
+    Kafka Streams → Real-time processing
+
+    Production setup → Scaling, monitoring, security
+
 
 
